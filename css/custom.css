@@ -2,8 +2,8 @@
     font-family:'Candyhome' ;  /* 字体名自定义即可 */
     /* 字体文件路径 */
     /* src:url('https://windandstill-1309695473.cos.ap-guangzhou.myqcloud.com/jyhphy-2.ttf'); */
-    src:url('https://cdn.jsdelivr.net/gh/windandstill/CDN/fonts/Candy.woff2');
-    /* src:url('/fonts/Candy.woff2'); */
+    /* src:url('https://cdn.jsdelivr.net/gh/windandstill/CDN/fonts/Candy.woff2'); */
+    src:url('/fonts/Candy.woff2');
     font-display : swap;
 }
   
