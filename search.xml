@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Zookeeper注册中心</title>
+      <link href="/zookeeper-zhu-ce-zhong-xin/"/>
+      <url>/zookeeper-zhu-ce-zhong-xin/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-Zookeeper概念"><a href="#1-Zookeeper概念" class="headerlink" title="1. Zookeeper概念"></a>1. Zookeeper概念</h1><ul><li>Zookeeper 是 Apache Hadoop 项目下的一个子项目，是一个树形目录服务</li><li>Zookeeper 是一个分布式的、开源的分布式应用程序的协调服务</li><li>Zookeeper 提供的主要功能包括<ul><li>配置管理</li><li>分布式锁</li><li>集群管理</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+          <category> 项目架构 </category>
+          
+          <category> Zookeeper </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Web </tag>
+            
+            <tag> 项目架构 </tag>
+            
+            <tag> Zookeeper </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Dubbo项目架构</title>
       <link href="/dubbo-xiang-mu-jia-gou/"/>
       <url>/dubbo-xiang-mu-jia-gou/</url>
