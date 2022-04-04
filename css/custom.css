@@ -159,3 +159,26 @@ div#category{
     left: 0 !important;
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
   }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current {
+    /* 大小 */
+    font-size: 17px;
+    /* 颜色 */
+    color: #1b82f1;
+    opacity: 1;
+    overflow: visible;
+    height: auto !important;
+    min-height: 16px;
+}
+.aplayer .aplayer-lrc p {
+    font-weight: 700;
+    font-size:15px;
+    color:#777;
+    line-height:16px!important;
+    height:16px!important;
+    padding:0!important;
+    margin:0!important;
+    transition:all .5s ease-out;
+    opacity:.4;
+    overflow:hidden
+}
+
