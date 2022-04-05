@@ -167,7 +167,7 @@ div#category{
     opacity: 1;
     overflow: visible;
     height: auto !important;
-    min-height: 16px;
+    min-height: 17px;
 }
 .aplayer .aplayer-lrc p {
     font-weight: 700;
