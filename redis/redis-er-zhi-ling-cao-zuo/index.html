@@ -155,58 +155,54 @@
     detectApple()
     })(window)</script><link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'"><meta name="generator" content="Hexo 6.0.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">风静水易寒</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Redis(二) 指令操作</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-04-02T08:14:36.181Z" title="发表于 2022-04-02 16:14:36">2022-04-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-05T14:59:55.029Z" title="更新于 2022-04-05 22:59:55">2022-04-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Redis/">Redis</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">3.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>11分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Redis(二) 指令操作"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>1. 常用指令</h1>
-<h2 id="1-1-key-基本操作">1.1 key 基本操作</h2>
-<table>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">风静水易寒</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Redis(二) 指令操作</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-04-02T08:14:36.181Z" title="发表于 2022-04-02 16:14:36">2022-04-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-05T14:59:55.029Z" title="更新于 2022-04-05 22:59:55">2022-04-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Redis/">Redis</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">3.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>11分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Redis(二) 指令操作"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="1-常用指令"><a href="#1-常用指令" class="headerlink" title="1. 常用指令"></a>1. 常用指令</h1><h2 id="1-1-key-基本操作"><a href="#1-1-key-基本操作" class="headerlink" title="1.1 key 基本操作"></a>1.1 key 基本操作</h2><table>
 <thead>
 <tr>
-<th style="text-align:center">指令</th>
-<th style="text-align:center">作用</th>
+<th align="center">指令</th>
+<th align="center">作用</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>del</code> key</td>
-<td style="text-align:center">删除指定key</td>
+<tbody><tr>
+<td align="center"><code>del</code> key</td>
+<td align="center">删除指定key</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>exists</code> key</td>
-<td style="text-align:center">获取key是否存在</td>
+<td align="center"><code>exists</code> key</td>
+<td align="center">获取key是否存在</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>type</code> key</td>
-<td style="text-align:center">获取key的类型</td>
+<td align="center"><code>type</code> key</td>
+<td align="center">获取key的类型</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>expire</code> key seconds<br><code>pexpire</code> key milliseconds<br><code>expireat</code> key timestamp<br><code>pexpireat</code> key milliseconds-timestamp</td>
-<td style="text-align:center">为指定key设置有效期</td>
+<td align="center"><code>expire</code> key seconds<br><code>pexpire</code> key milliseconds<br><code>expireat</code> key timestamp<br><code>pexpireat</code> key milliseconds-timestamp</td>
+<td align="center">为指定key设置有效期</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>ttl</code> key<br><code>pttl</code> key</td>
-<td style="text-align:center">获取key的有效时间</td>
+<td align="center"><code>ttl</code> key<br><code>pttl</code> key</td>
+<td align="center">获取key的有效时间</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>persist</code> key</td>
-<td style="text-align:center">切换key从时效性转换为永久性</td>
+<td align="center"><code>persist</code> key</td>
+<td align="center">切换key从时效性转换为永久性</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>rename</code> key newkey<br><code>renamenx</code> key newkey</td>
-<td style="text-align:center">为key改名</td>
+<td align="center"><code>rename</code> key newkey<br><code>renamenx</code> key newkey</td>
+<td align="center">为key改名</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>sort</code></td>
-<td style="text-align:center">对所有key排序</td>
+<td align="center"><code>sort</code></td>
+<td align="center">对所有key排序</td>
 </tr>
 <tr>
-<td style="text-align:center">help @generic</td>
-<td style="text-align:center">其他key通用操作</td>
+<td align="center">help @generic</td>
+<td align="center">其他key通用操作</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>keys</code> pattern</td>
-<td style="text-align:center">查询key</td>
+<td align="center"><code>keys</code> pattern</td>
+<td align="center">查询key</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <blockquote>
 <p>查询模式规则</p>
 <p>* 匹配任意数量的任意符号 ? 配合一个任意符号 [] 匹配一个指定符</p>
@@ -218,8 +214,7 @@
 <th>解释</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>keys *</td>
 <td>查询所有</td>
 </tr>
@@ -243,393 +238,377 @@
 <td>keys u[st]er:1</td>
 <td>查询所有以u开头，以er:1结尾，中间包含一个字母，s或t</td>
 </tr>
-</tbody>
-</table>
-<h2 id="1-2数据库通用指令">1.2数据库通用指令</h2>
-<table>
+</tbody></table>
+<h2 id="1-2数据库通用指令"><a href="#1-2数据库通用指令" class="headerlink" title="1.2数据库通用指令"></a>1.2数据库通用指令</h2><table>
 <thead>
 <tr>
-<th style="text-align:center">指令</th>
-<th style="text-align:center">作用</th>
+<th align="center">指令</th>
+<th align="center">作用</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>select</code> index</td>
-<td style="text-align:center">切换数据库</td>
+<tbody><tr>
+<td align="center"><code>select</code> index</td>
+<td align="center">切换数据库</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>quit</code><br><code>ping</code><br><code>echo</code> message</td>
-<td style="text-align:center">其他操作</td>
+<td align="center"><code>quit</code><br><code>ping</code><br><code>echo</code> message</td>
+<td align="center">其他操作</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>move</code> key db</td>
-<td style="text-align:center">数据移动</td>
+<td align="center"><code>move</code> key db</td>
+<td align="center">数据移动</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>dbsize</code><br><code>flushdb</code><br><code>flushall</code></td>
-<td style="text-align:center">数据清除</td>
+<td align="center"><code>dbsize</code><br><code>flushdb</code><br><code>flushall</code></td>
+<td align="center">数据清除</td>
 </tr>
-</tbody>
-</table>
-<h1>2. 全部指令</h1>
-<h2 id="2-1-String">2.1 String</h2>
-<table>
+</tbody></table>
+<h1 id="2-全部指令"><a href="#2-全部指令" class="headerlink" title="2. 全部指令"></a>2. 全部指令</h1><h2 id="2-1-String"><a href="#2-1-String" class="headerlink" title="2.1 String"></a>2.1 String</h2><table>
 <thead>
 <tr>
-<th style="text-align:center">操作指令</th>
-<th style="text-align:center">作用</th>
-<th style="text-align:center">注意事项</th>
-<th style="text-align:center">返回值</th>
+<th align="center">操作指令</th>
+<th align="center">作用</th>
+<th align="center">注意事项</th>
+<th align="center">返回值</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>set</code> key value</td>
-<td style="text-align:center">将字符串值 <code>value</code> 关联到 <code>key</code></td>
-<td style="text-align:center">如果 <code>key</code> 已经持有其他值， <code>SET</code> 就覆写旧值， 无视类型<br>当 <code>SET</code> 命令对一个带有生存时间（TTL）的键进行设置之后， 该键原有的 TTL 将被清除</td>
-<td style="text-align:center"><code>SET</code> 命令只在设置操作成功完成时才返回 <code>OK</code></td>
+<tbody><tr>
+<td align="center"><code>set</code> key value</td>
+<td align="center">将字符串值 <code>value</code> 关联到 <code>key</code></td>
+<td align="center">如果 <code>key</code> 已经持有其他值， <code>SET</code> 就覆写旧值， 无视类型<br>当 <code>SET</code> 命令对一个带有生存时间（TTL）的键进行设置之后， 该键原有的 TTL 将被清除</td>
+<td align="center"><code>SET</code> 命令只在设置操作成功完成时才返回 <code>OK</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>setnx</code> key value</td>
-<td style="text-align:center">只在键 <code>key</code> 不存在的情况下， 将键 <code>key</code> 的值设置为 <code>value</code></td>
-<td style="text-align:center">若键 <code>key</code> 已经存在， 则 <code>SETNX</code> 命令不做任何动作</td>
-<td style="text-align:center">命令在设置成功时返回 <code>1</code> ， 设置失败时返回 <code>0</code></td>
+<td align="center"><code>setnx</code> key value</td>
+<td align="center">只在键 <code>key</code> 不存在的情况下， 将键 <code>key</code> 的值设置为 <code>value</code></td>
+<td align="center">若键 <code>key</code> 已经存在， 则 <code>SETNX</code> 命令不做任何动作</td>
+<td align="center">命令在设置成功时返回 <code>1</code> ， 设置失败时返回 <code>0</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>setex</code> key value</td>
-<td style="text-align:center">将键 <code>key</code> 的值设置为 <code>value</code> ， 并将键 <code>key</code> 的生存时间设置为 <code>seconds</code> 秒钟</td>
-<td style="text-align:center">如果键 <code>key</code> 已经存在， 那么 <code>SETEX</code> 命令将覆盖已有的值</td>
-<td style="text-align:center">命令在设置成功时返回 <code>OK</code> <br> 当 <code>seconds</code> 参数不合法时， 命令将返回一个错误</td>
+<td align="center"><code>setex</code> key value</td>
+<td align="center">将键 <code>key</code> 的值设置为 <code>value</code> ， 并将键 <code>key</code> 的生存时间设置为 <code>seconds</code> 秒钟</td>
+<td align="center">如果键 <code>key</code> 已经存在， 那么 <code>SETEX</code> 命令将覆盖已有的值</td>
+<td align="center">命令在设置成功时返回 <code>OK</code> <br> 当 <code>seconds</code> 参数不合法时， 命令将返回一个错误</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>pestex</code> key value</td>
-<td style="text-align:center">它以<code>毫秒</code>为单位设置 <code>key</code> 的生存时间</td>
-<td style="text-align:center">这个命令和 <code>SETEX</code> 命令相似， 但不是像 <code>SETEX</code> 命令那样以秒为单位进行设置</td>
-<td style="text-align:center">命令在设置成功时返回 <code>OK</code></td>
+<td align="center"><code>pestex</code> key value</td>
+<td align="center">它以<code>毫秒</code>为单位设置 <code>key</code> 的生存时间</td>
+<td align="center">这个命令和 <code>SETEX</code> 命令相似， 但不是像 <code>SETEX</code> 命令那样以秒为单位进行设置</td>
+<td align="center">命令在设置成功时返回 <code>OK</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>get</code> key</td>
-<td style="text-align:center">返回与键 <code>key</code> 相关联的字符串值</td>
-<td style="text-align:center">如果键 <code>key</code> 不存在， 那么返回特殊值 <code>nil</code> ； 否则， 返回键 <code>key</code> 的值</td>
-<td style="text-align:center">与键 <code>key</code> 相关联的字符串值</td>
+<td align="center"><code>get</code> key</td>
+<td align="center">返回与键 <code>key</code> 相关联的字符串值</td>
+<td align="center">如果键 <code>key</code> 不存在， 那么返回特殊值 <code>nil</code> ； 否则， 返回键 <code>key</code> 的值</td>
+<td align="center">与键 <code>key</code> 相关联的字符串值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>getset</code> key value</td>
-<td style="text-align:center">将键 <code>key</code> 的值设为 <code>value</code> ， 并返回键 <code>key</code> 在被设置之前的旧值</td>
-<td style="text-align:center">如果键 <code>key</code> 没有旧值， 也即是说， 键 <code>key</code> 在被设置之前并不存在， 那么命令返回 <code>nil</code></td>
-<td style="text-align:center">给定键 <code>key</code> 的旧值</td>
+<td align="center"><code>getset</code> key value</td>
+<td align="center">将键 <code>key</code> 的值设为 <code>value</code> ， 并返回键 <code>key</code> 在被设置之前的旧值</td>
+<td align="center">如果键 <code>key</code> 没有旧值， 也即是说， 键 <code>key</code> 在被设置之前并不存在， 那么命令返回 <code>nil</code></td>
+<td align="center">给定键 <code>key</code> 的旧值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>strlen</code> key</td>
-<td style="text-align:center">返回键 <code>key</code> 储存的字符串值的长度</td>
-<td style="text-align:center">当键 <code>key</code> 不存在时， 命令返回 <code>0</code></td>
-<td style="text-align:center">字符串值的长度</td>
+<td align="center"><code>strlen</code> key</td>
+<td align="center">返回键 <code>key</code> 储存的字符串值的长度</td>
+<td align="center">当键 <code>key</code> 不存在时， 命令返回 <code>0</code></td>
+<td align="center">字符串值的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>append</code> key value</td>
-<td style="text-align:center">如果键 <code>key</code> 已经存在并且它的值是一个字符串， <code>APPEND</code> 命令将把 <code>value</code> 追加到键 <code>key</code> 现有值的末尾</td>
-<td style="text-align:center">如果 <code>key</code> 不存在， <code>APPEND</code> 就简单地将键 <code>key</code> 的值设为 <code>value</code> ， 就像执行 <code>SET key value</code> 一样</td>
-<td style="text-align:center">追加 <code>value</code> 之后， 键 <code>key</code> 的值的长度</td>
+<td align="center"><code>append</code> key value</td>
+<td align="center">如果键 <code>key</code> 已经存在并且它的值是一个字符串， <code>APPEND</code> 命令将把 <code>value</code> 追加到键 <code>key</code> 现有值的末尾</td>
+<td align="center">如果 <code>key</code> 不存在， <code>APPEND</code> 就简单地将键 <code>key</code> 的值设为 <code>value</code> ， 就像执行 <code>SET key value</code> 一样</td>
+<td align="center">追加 <code>value</code> 之后， 键 <code>key</code> 的值的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>setrange </code> key offset value</td>
-<td style="text-align:center">从偏移量 <code>offset</code> 开始， 用 <code>value</code> 参数覆写(overwrite)键 <code>key</code> 储存的字符串值</td>
-<td style="text-align:center">不存在的键 <code>key</code> 当作空白字符串处理</td>
-<td style="text-align:center">被修改之后， 字符串值的长度</td>
+<td align="center"><code>setrange </code> key offset value</td>
+<td align="center">从偏移量 <code>offset</code> 开始， 用 <code>value</code> 参数覆写(overwrite)键 <code>key</code> 储存的字符串值</td>
+<td align="center">不存在的键 <code>key</code> 当作空白字符串处理</td>
+<td align="center">被修改之后， 字符串值的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>getrange</code> key start end</td>
-<td style="text-align:center">返回键 <code>key</code> 储存的字符串值的指定部分， 字符串的截取范围由 <code>start</code> 和 <code>end</code> 两个偏移量决定 (包括 <code>start</code> 和 <code>end</code> 在内)</td>
-<td style="text-align:center">负数偏移量表示从字符串的末尾开始计数， <code>-1</code> 表示最后一个字符， <code>-2</code> 表示倒数第二个字符， 以此类推<br><code>GETRANGE</code> 通过保证子字符串的值域(range)不超过实际字符串的值域来处理超出范围的值域请求</td>
-<td style="text-align:center"><code>GETRANGE</code> 命令会返回字符串值的指定部分</td>
+<td align="center"><code>getrange</code> key start end</td>
+<td align="center">返回键 <code>key</code> 储存的字符串值的指定部分， 字符串的截取范围由 <code>start</code> 和 <code>end</code> 两个偏移量决定 (包括 <code>start</code> 和 <code>end</code> 在内)</td>
+<td align="center">负数偏移量表示从字符串的末尾开始计数， <code>-1</code> 表示最后一个字符， <code>-2</code> 表示倒数第二个字符， 以此类推<br><code>GETRANGE</code> 通过保证子字符串的值域(range)不超过实际字符串的值域来处理超出范围的值域请求</td>
+<td align="center"><code>GETRANGE</code> 命令会返回字符串值的指定部分</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>incr</code> key</td>
-<td style="text-align:center">为键 <code>key</code> 储存的数字值加上一</td>
-<td style="text-align:center">如果键 <code>key</code> 不存在， 那么它的值会先被初始化为 <code>0</code> ， 然后再执行 <code>INCR</code> 命令</td>
-<td style="text-align:center">执行加一操作之后的值</td>
+<td align="center"><code>incr</code> key</td>
+<td align="center">为键 <code>key</code> 储存的数字值加上一</td>
+<td align="center">如果键 <code>key</code> 不存在， 那么它的值会先被初始化为 <code>0</code> ， 然后再执行 <code>INCR</code> 命令</td>
+<td align="center">执行加一操作之后的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>incrby</code> key increment</td>
-<td style="text-align:center">为键 <code>key</code> 储存的数字值加上增量 <code>increment</code></td>
-<td style="text-align:center">如果键 <code>key</code> 不存在， 那么键 <code>key</code> 的值会先被初始化为 <code>0</code> ， 然后再执行 <code>INCRBY</code> 命令</td>
-<td style="text-align:center">在加上增量 <code>increment</code> 之后， 键 <code>key</code> 当前的值</td>
+<td align="center"><code>incrby</code> key increment</td>
+<td align="center">为键 <code>key</code> 储存的数字值加上增量 <code>increment</code></td>
+<td align="center">如果键 <code>key</code> 不存在， 那么键 <code>key</code> 的值会先被初始化为 <code>0</code> ， 然后再执行 <code>INCRBY</code> 命令</td>
+<td align="center">在加上增量 <code>increment</code> 之后， 键 <code>key</code> 当前的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>incrbyfloat</code> key increment</td>
-<td style="text-align:center">为键 <code>key</code> 储存的值加上浮点数增量 <code>increment</code></td>
-<td style="text-align:center">如果键 <code>key</code> 不存在， 那么 <code>INCRBYFLOAT</code> 会先将键 <code>key</code> 的值设为 <code>0</code> ， 然后再执行加法操做</td>
-<td style="text-align:center">在加上增量 <code>increment</code> 之后， 键 <code>key</code> 的值</td>
+<td align="center"><code>incrbyfloat</code> key increment</td>
+<td align="center">为键 <code>key</code> 储存的值加上浮点数增量 <code>increment</code></td>
+<td align="center">如果键 <code>key</code> 不存在， 那么 <code>INCRBYFLOAT</code> 会先将键 <code>key</code> 的值设为 <code>0</code> ， 然后再执行加法操做</td>
+<td align="center">在加上增量 <code>increment</code> 之后， 键 <code>key</code> 的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>decr</code> key</td>
-<td style="text-align:center">为键 <code>key</code> 储存的数字值减去一</td>
-<td style="text-align:center">如果键 <code>key</code> 不存在， 那么键 <code>key</code> 的值会先被初始化为 <code>0</code> ， 然后再执行 <code>DECR</code> 操作</td>
-<td style="text-align:center">执行减一操作之后的值</td>
+<td align="center"><code>decr</code> key</td>
+<td align="center">为键 <code>key</code> 储存的数字值减去一</td>
+<td align="center">如果键 <code>key</code> 不存在， 那么键 <code>key</code> 的值会先被初始化为 <code>0</code> ， 然后再执行 <code>DECR</code> 操作</td>
+<td align="center">执行减一操作之后的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>decrby</code> key increment</td>
-<td style="text-align:center">将键 <code>key</code> 储存的整数值减去减量 <code>decrement</code></td>
-<td style="text-align:center">如果键 <code>key</code> 不存在， 那么键 <code>key</code> 的值会先被初始化为 <code>0</code> ， 然后再执行 <code>DECRBY</code> 命令</td>
-<td style="text-align:center">执行减法操作之后的值</td>
+<td align="center"><code>decrby</code> key increment</td>
+<td align="center">将键 <code>key</code> 储存的整数值减去减量 <code>decrement</code></td>
+<td align="center">如果键 <code>key</code> 不存在， 那么键 <code>key</code> 的值会先被初始化为 <code>0</code> ， 然后再执行 <code>DECRBY</code> 命令</td>
+<td align="center">执行减法操作之后的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>mset</code> key1 value1 key2 value2</td>
-<td style="text-align:center">同时为多个键设置值</td>
-<td style="text-align:center"><code>MSET</code> 是一个原子性(atomic)操作，会覆盖已有value</td>
-<td style="text-align:center">总是返回 <code>OK</code></td>
+<td align="center"><code>mset</code> key1 value1 key2 value2</td>
+<td align="center">同时为多个键设置值</td>
+<td align="center"><code>MSET</code> 是一个原子性(atomic)操作，会覆盖已有value</td>
+<td align="center">总是返回 <code>OK</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>msetnx</code> key1 value1 key2 value2</td>
-<td style="text-align:center">当且仅当所有给定键都不存在时， 为所有给定键设置值</td>
-<td style="text-align:center"><code>MSETNX</code> 是一个原子性(atomic)操作， 所有给定键要么就全部都被设置， 要么就全部都不设置， 不可能出现第三种状态</td>
-<td style="text-align:center">成功 <code>1</code> <br>失败<code>0</code></td>
+<td align="center"><code>msetnx</code> key1 value1 key2 value2</td>
+<td align="center">当且仅当所有给定键都不存在时， 为所有给定键设置值</td>
+<td align="center"><code>MSETNX</code> 是一个原子性(atomic)操作， 所有给定键要么就全部都被设置， 要么就全部都不设置， 不可能出现第三种状态</td>
+<td align="center">成功 <code>1</code> <br>失败<code>0</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>mget</code> key1 key2</td>
-<td style="text-align:center">返回给定的一个或多个字符串键的值</td>
-<td style="text-align:center">如果给定的字符串键里面， 有某个键不存在， 那么这个键的值将以特殊值 <code>nil</code> 表示</td>
-<td style="text-align:center">一个列表， 列表中包含了所有给定键的值</td>
+<td align="center"><code>mget</code> key1 key2</td>
+<td align="center">返回给定的一个或多个字符串键的值</td>
+<td align="center">如果给定的字符串键里面， 有某个键不存在， 那么这个键的值将以特殊值 <code>nil</code> 表示</td>
+<td align="center">一个列表， 列表中包含了所有给定键的值</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <blockquote>
 <p>tips:</p>
 </blockquote>
 <ul>
-<li>
-<p><code>get</code> 只能获取字符串 其他类型的用get就会报错</p>
+<li><p><code>get</code> 只能获取字符串 其他类型的用get就会报错</p>
 </li>
-<li>
-<p>数字的加减只能用于数字 带有字符的字符串会报错</p>
+<li><p>数字的加减只能用于数字 带有字符的字符串会报错</p>
 </li>
 </ul>
-<h2 id="2-2-hash">2.2 hash</h2>
-<table>
+<h2 id="2-2-hash"><a href="#2-2-hash" class="headerlink" title="2.2 hash"></a>2.2 hash</h2><table>
 <thead>
 <tr>
-<th style="text-align:center">操作指令</th>
-<th style="text-align:center">作用</th>
-<th style="text-align:center">注意事项</th>
-<th style="text-align:center">返回值</th>
+<th align="center">操作指令</th>
+<th align="center">作用</th>
+<th align="center">注意事项</th>
+<th align="center">返回值</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>hset</code> hash field value</td>
-<td style="text-align:center">将哈希表 <code>hash</code> 中域 <code>field</code> 的值设置为 <code>value</code></td>
-<td style="text-align:center"><code>field</code>不存在就创建<code>field</code>域并设置<br>存在就覆盖</td>
-<td style="text-align:center">新创建 <code>field</code> 域并成功为它设置值时， 命令返回 <code>1</code> <br>成功使用新值覆盖了它的旧值， 那么命令返回 <code>0</code></td>
+<tbody><tr>
+<td align="center"><code>hset</code> hash field value</td>
+<td align="center">将哈希表 <code>hash</code> 中域 <code>field</code> 的值设置为 <code>value</code></td>
+<td align="center"><code>field</code>不存在就创建<code>field</code>域并设置<br>存在就覆盖</td>
+<td align="center">新创建 <code>field</code> 域并成功为它设置值时， 命令返回 <code>1</code> <br>成功使用新值覆盖了它的旧值， 那么命令返回 <code>0</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hsetnx</code> hash field value</td>
-<td style="text-align:center">当且仅当域 <code>field</code> 尚未存在于哈希表的情况下， 将它的值设置为 <code>value</code></td>
-<td style="text-align:center">如果给定域已经存在于哈希表当中， 那么命令将放弃执行设置操作</td>
-<td style="text-align:center">设置成功时返回 <code>1</code> ， 在给定域已经存在而放弃执行设置操作时返回 <code>0</code></td>
+<td align="center"><code>hsetnx</code> hash field value</td>
+<td align="center">当且仅当域 <code>field</code> 尚未存在于哈希表的情况下， 将它的值设置为 <code>value</code></td>
+<td align="center">如果给定域已经存在于哈希表当中， 那么命令将放弃执行设置操作</td>
+<td align="center">设置成功时返回 <code>1</code> ， 在给定域已经存在而放弃执行设置操作时返回 <code>0</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hget</code> hash field</td>
-<td style="text-align:center">返回哈希表中给定域的值</td>
-<td style="text-align:center">如果给定域不存在于哈希表中， 又或者给定的哈希表并不存在， 那么命令返回 <code>nil</code></td>
-<td style="text-align:center"><code>HGET</code> 命令在默认情况下返回给定域的值</td>
+<td align="center"><code>hget</code> hash field</td>
+<td align="center">返回哈希表中给定域的值</td>
+<td align="center">如果给定域不存在于哈希表中， 又或者给定的哈希表并不存在， 那么命令返回 <code>nil</code></td>
+<td align="center"><code>HGET</code> 命令在默认情况下返回给定域的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hexists</code> hash field</td>
-<td style="text-align:center">检查给定域 <code>field</code> 是否存在于哈希表 <code>hash</code> 当中</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"><code>HEXISTS</code> 命令在给定域存在时返回 <code>1</code> ， 在给定域不存在时返回 <code>0</code></td>
+<td align="center"><code>hexists</code> hash field</td>
+<td align="center">检查给定域 <code>field</code> 是否存在于哈希表 <code>hash</code> 当中</td>
+<td align="center"></td>
+<td align="center"><code>HEXISTS</code> 命令在给定域存在时返回 <code>1</code> ， 在给定域不存在时返回 <code>0</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hdel</code> key [field]</td>
-<td style="text-align:center">删除哈希表 <code>key</code> 中的一个或多个指定域，不存在的域将被忽略</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">被成功移除的域的数量，不包括被忽略的域</td>
+<td align="center"><code>hdel</code> key [field]</td>
+<td align="center">删除哈希表 <code>key</code> 中的一个或多个指定域，不存在的域将被忽略</td>
+<td align="center"></td>
+<td align="center">被成功移除的域的数量，不包括被忽略的域</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hlen</code> key</td>
-<td style="text-align:center">返回哈希表 <code>key</code> 中域的数量</td>
-<td style="text-align:center">当 <code>key</code> 不存在时，返回 <code>0</code></td>
-<td style="text-align:center">哈希表中域的数量</td>
+<td align="center"><code>hlen</code> key</td>
+<td align="center">返回哈希表 <code>key</code> 中域的数量</td>
+<td align="center">当 <code>key</code> 不存在时，返回 <code>0</code></td>
+<td align="center">哈希表中域的数量</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hstrlen</code> key field</td>
-<td style="text-align:center">返回哈希表 <code>key</code> 中， 与给定域 <code>field</code> 相关联的值的字符串长度（string length）</td>
-<td style="text-align:center">如果给定的键或者域不存在， 那么命令返回 <code>0</code></td>
-<td style="text-align:center">一个整数</td>
+<td align="center"><code>hstrlen</code> key field</td>
+<td align="center">返回哈希表 <code>key</code> 中， 与给定域 <code>field</code> 相关联的值的字符串长度（string length）</td>
+<td align="center">如果给定的键或者域不存在， 那么命令返回 <code>0</code></td>
+<td align="center">一个整数</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hincrby</code> key field increment</td>
-<td style="text-align:center">为哈希表 <code>key</code> 中的域 <code>field</code> 的值加上增量 <code>increment</code></td>
-<td style="text-align:center">如果 <code>key</code> 不存在，一个新的哈希表被创建并执行 <br>如果域 <code>field</code> 不存在，那么在执行命令前，域的值被初始化为 <code>0</code></td>
-<td style="text-align:center">执行命令之后，哈希表 <code>key</code> 中域 <code>field</code> 的值</td>
+<td align="center"><code>hincrby</code> key field increment</td>
+<td align="center">为哈希表 <code>key</code> 中的域 <code>field</code> 的值加上增量 <code>increment</code></td>
+<td align="center">如果 <code>key</code> 不存在，一个新的哈希表被创建并执行 <br>如果域 <code>field</code> 不存在，那么在执行命令前，域的值被初始化为 <code>0</code></td>
+<td align="center">执行命令之后，哈希表 <code>key</code> 中域 <code>field</code> 的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hincrbyfloat</code> key field increment</td>
-<td style="text-align:center">哈希表 <code>key</code> 中的域 <code>field</code> 加上浮点数增量 <code>increment</code></td>
-<td style="text-align:center">同上</td>
-<td style="text-align:center">执行加法操作之后 <code>field</code> 域的值</td>
+<td align="center"><code>hincrbyfloat</code> key field increment</td>
+<td align="center">哈希表 <code>key</code> 中的域 <code>field</code> 加上浮点数增量 <code>increment</code></td>
+<td align="center">同上</td>
+<td align="center">执行加法操作之后 <code>field</code> 域的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hmset</code> key [field value]</td>
-<td style="text-align:center">同时将多个 <code>field-value</code> (域-值)对设置到哈希表 <code>key</code> 中</td>
-<td style="text-align:center">此命令会覆盖哈希表中已存在的域<br>如果 <code>key</code> 不存在，一个空哈希表被创建并执行</td>
-<td style="text-align:center">如果命令执行成功，返回 <code>OK</code> <br>当 <code>key</code> 不是哈希表(hash)类型时，返回一个错误</td>
+<td align="center"><code>hmset</code> key [field value]</td>
+<td align="center">同时将多个 <code>field-value</code> (域-值)对设置到哈希表 <code>key</code> 中</td>
+<td align="center">此命令会覆盖哈希表中已存在的域<br>如果 <code>key</code> 不存在，一个空哈希表被创建并执行</td>
+<td align="center">如果命令执行成功，返回 <code>OK</code> <br>当 <code>key</code> 不是哈希表(hash)类型时，返回一个错误</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hmget key [field]</code></td>
-<td style="text-align:center">返回哈希表 <code>key</code> 中，一个或多个给定域的值</td>
-<td style="text-align:center">如果给定的域不存在于哈希表，那么返回一个 <code>nil</code> 值</td>
-<td style="text-align:center">一个包含多个给定域的关联值的表，表值的排列顺序和给定域参数的请求顺序一样</td>
+<td align="center"><code>hmget key [field]</code></td>
+<td align="center">返回哈希表 <code>key</code> 中，一个或多个给定域的值</td>
+<td align="center">如果给定的域不存在于哈希表，那么返回一个 <code>nil</code> 值</td>
+<td align="center">一个包含多个给定域的关联值的表，表值的排列顺序和给定域参数的请求顺序一样</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hkeys</code> key</td>
-<td style="text-align:center">返回哈希表 <code>key</code> 中的所有域</td>
-<td style="text-align:center">当 <code>key</code> 不存在时，返回一个空表</td>
-<td style="text-align:center">一个包含哈希表中所有域的表</td>
+<td align="center"><code>hkeys</code> key</td>
+<td align="center">返回哈希表 <code>key</code> 中的所有域</td>
+<td align="center">当 <code>key</code> 不存在时，返回一个空表</td>
+<td align="center">一个包含哈希表中所有域的表</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hvals</code> key</td>
-<td style="text-align:center">返回哈希表 <code>key</code> 中所有域的值</td>
-<td style="text-align:center">当 <code>key</code> 不存在时，返回一个空表</td>
-<td style="text-align:center">一个包含哈希表中所有值的表</td>
+<td align="center"><code>hvals</code> key</td>
+<td align="center">返回哈希表 <code>key</code> 中所有域的值</td>
+<td align="center">当 <code>key</code> 不存在时，返回一个空表</td>
+<td align="center">一个包含哈希表中所有值的表</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>hgetall</code> key</td>
-<td style="text-align:center">返回哈希表 <code>key</code> 中，所有的域和值</td>
-<td style="text-align:center">若 <code>key</code> 不存在，返回空列表</td>
-<td style="text-align:center">以列表形式返回哈希表的域和域的值</td>
+<td align="center"><code>hgetall</code> key</td>
+<td align="center">返回哈希表 <code>key</code> 中，所有的域和值</td>
+<td align="center">若 <code>key</code> 不存在，返回空列表</td>
+<td align="center">以列表形式返回哈希表的域和域的值</td>
 </tr>
-</tbody>
-</table>
-<h2 id="2-3-list">2.3 list</h2>
-<table>
+</tbody></table>
+<h2 id="2-3-list"><a href="#2-3-list" class="headerlink" title="2.3 list"></a>2.3 list</h2><table>
 <thead>
 <tr>
-<th style="text-align:center">操作指令</th>
-<th style="text-align:center">作用</th>
-<th style="text-align:center">注意事项</th>
-<th style="text-align:center">返回值</th>
+<th align="center">操作指令</th>
+<th align="center">作用</th>
+<th align="center">注意事项</th>
+<th align="center">返回值</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>lpush</code> key [value]</td>
-<td style="text-align:center">将一个或多个值 <code>value</code> 插入到列表 <code>key</code> 的表头</td>
-<td style="text-align:center"><code>value</code> 值按从左到右的顺序依次插入到表头<br>如果 <code>key</code> 不存在，一个空列表会被创建并执行</td>
-<td style="text-align:center">列表的长度</td>
+<tbody><tr>
+<td align="center"><code>lpush</code> key [value]</td>
+<td align="center">将一个或多个值 <code>value</code> 插入到列表 <code>key</code> 的表头</td>
+<td align="center"><code>value</code> 值按从左到右的顺序依次插入到表头<br>如果 <code>key</code> 不存在，一个空列表会被创建并执行</td>
+<td align="center">列表的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>lpushx</code> key value</td>
-<td style="text-align:center">将值 <code>value</code> 插入到列表 <code>key</code> 的表头，当且仅当 <code>key</code> 存在并且是一个列表</td>
-<td style="text-align:center">当 <code>key</code> 不存在时，什么也不做</td>
-<td style="text-align:center">命令执行之后，表的长度</td>
+<td align="center"><code>lpushx</code> key value</td>
+<td align="center">将值 <code>value</code> 插入到列表 <code>key</code> 的表头，当且仅当 <code>key</code> 存在并且是一个列表</td>
+<td align="center">当 <code>key</code> 不存在时，什么也不做</td>
+<td align="center">命令执行之后，表的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>rpush</code> key [value]</td>
-<td style="text-align:center">将一个或多个值 <code>value</code> 插入到列表 <code>key</code> 的表尾(最右边)</td>
-<td style="text-align:center"><code>value</code> 值按从左到右的顺序依次插入到表尾<br>如果 <code>key</code> 不存在，一个空列表会被创建并执行</td>
-<td style="text-align:center">命令执行之后，表的长度</td>
+<td align="center"><code>rpush</code> key [value]</td>
+<td align="center">将一个或多个值 <code>value</code> 插入到列表 <code>key</code> 的表尾(最右边)</td>
+<td align="center"><code>value</code> 值按从左到右的顺序依次插入到表尾<br>如果 <code>key</code> 不存在，一个空列表会被创建并执行</td>
+<td align="center">命令执行之后，表的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>rpushx</code> key value</td>
-<td style="text-align:center">将值 <code>value</code> 插入到列表 <code>key</code> 的表尾，当且仅当 <code>key</code> 存在并且是一个列表</td>
-<td style="text-align:center">当 <code>key</code> 不存在时，什么也不做</td>
-<td style="text-align:center">命令执行之后，表的长度</td>
+<td align="center"><code>rpushx</code> key value</td>
+<td align="center">将值 <code>value</code> 插入到列表 <code>key</code> 的表尾，当且仅当 <code>key</code> 存在并且是一个列表</td>
+<td align="center">当 <code>key</code> 不存在时，什么也不做</td>
+<td align="center">命令执行之后，表的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>lpop</code> key</td>
-<td style="text-align:center">移除并返回列表 <code>key</code> 的头元素</td>
-<td style="text-align:center">当 <code>key</code> 不存在时，返回 <code>nil</code></td>
-<td style="text-align:center">列表的头元素</td>
+<td align="center"><code>lpop</code> key</td>
+<td align="center">移除并返回列表 <code>key</code> 的头元素</td>
+<td align="center">当 <code>key</code> 不存在时，返回 <code>nil</code></td>
+<td align="center">列表的头元素</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>rpop</code> key</td>
-<td style="text-align:center">移除并返回列表 <code>key</code> 的尾元素</td>
-<td style="text-align:center">当 <code>key</code> 不存在时，返回 <code>nil</code></td>
-<td style="text-align:center">列表的尾元素</td>
+<td align="center"><code>rpop</code> key</td>
+<td align="center">移除并返回列表 <code>key</code> 的尾元素</td>
+<td align="center">当 <code>key</code> 不存在时，返回 <code>nil</code></td>
+<td align="center">列表的尾元素</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>rpoplpush</code> source destination</td>
-<td style="text-align:center">将 <code>source</code> 弹出的元素插入到列表 <code>destination</code> ，作为 <code>destination</code> 列表的的头元素</td>
-<td style="text-align:center">如果 <code>source</code> 不存在，值 <code>nil</code> 被返回，并且不执行其他动作</td>
-<td style="text-align:center">被弹出的元素</td>
+<td align="center"><code>rpoplpush</code> source destination</td>
+<td align="center">将 <code>source</code> 弹出的元素插入到列表 <code>destination</code> ，作为 <code>destination</code> 列表的的头元素</td>
+<td align="center">如果 <code>source</code> 不存在，值 <code>nil</code> 被返回，并且不执行其他动作</td>
+<td align="center">被弹出的元素</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>lrem</code> key count value</td>
-<td style="text-align:center">根据参数 <code>count</code> 的值，移除列表中与参数 <code>value</code> 相等的元素</td>
-<td style="text-align:center"><code>count &gt; 0</code> : 从表头开始向表尾搜索，数量为 <code>count</code><br><code>count = 0</code> : 移除表中所有与 <code>value</code> 相等的值</td>
-<td style="text-align:center">被移除元素的数量</td>
+<td align="center"><code>lrem</code> key count value</td>
+<td align="center">根据参数 <code>count</code> 的值，移除列表中与参数 <code>value</code> 相等的元素</td>
+<td align="center"><code>count &gt; 0</code> : 从表头开始向表尾搜索，数量为 <code>count</code><br><code>count = 0</code> : 移除表中所有与 <code>value</code> 相等的值</td>
+<td align="center">被移除元素的数量</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>llen</code> key</td>
-<td style="text-align:center">返回列表 <code>key</code> 的长度</td>
-<td style="text-align:center">如果 <code>key</code> 不存在，则 <code>key</code> 被解释为一个空列表，返回 <code>0</code></td>
-<td style="text-align:center">列表 <code>key</code> 的长度</td>
+<td align="center"><code>llen</code> key</td>
+<td align="center">返回列表 <code>key</code> 的长度</td>
+<td align="center">如果 <code>key</code> 不存在，则 <code>key</code> 被解释为一个空列表，返回 <code>0</code></td>
+<td align="center">列表 <code>key</code> 的长度</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>lindex</code> key index</td>
-<td style="text-align:center">返回列表 <code>key</code> 中，下标为 <code>index</code> 的元素</td>
-<td style="text-align:center">你也可以使用负数下标，以 <code>-1</code> 表示列表的最后一个元素<br><code>关于下表都可以试试负数</code></td>
-<td style="text-align:center">列表中下标为 <code>index</code> 的元素<br>如果 <code>index</code> 参数的值不在列表的区间范围内，返回 <code>nil</code></td>
+<td align="center"><code>lindex</code> key index</td>
+<td align="center">返回列表 <code>key</code> 中，下标为 <code>index</code> 的元素</td>
+<td align="center">你也可以使用负数下标，以 <code>-1</code> 表示列表的最后一个元素<br><code>关于下表都可以试试负数</code></td>
+<td align="center">列表中下标为 <code>index</code> 的元素<br>如果 <code>index</code> 参数的值不在列表的区间范围内，返回 <code>nil</code></td>
 </tr>
 <tr>
-<td style="text-align:center"><code>linsert</code> key <code>before</code></td>
-<td style="text-align:center"><code>after</code> pivot value</td>
-<td style="text-align:center">将值 <code>value</code> 插入到列表 <code>key</code> 当中，位于值 <code>pivot</code> 之前或之后</td>
-<td style="text-align:center">当 <code>pivot</code> 不存在于列表 <code>key</code> 或者不存在<code>key</code>，不执行任何操作</td>
+<td align="center"><code>linsert</code> key <code>before</code></td>
+<td align="center"><code>after</code> pivot value</td>
+<td align="center">将值 <code>value</code> 插入到列表 <code>key</code> 当中，位于值 <code>pivot</code> 之前或之后</td>
+<td align="center">当 <code>pivot</code> 不存在于列表 <code>key</code> 或者不存在<code>key</code>，不执行任何操作</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>lset</code> key index value</td>
-<td style="text-align:center">将列表 <code>key</code> 下标为 <code>index</code> 的元素的值设置为 <code>value</code></td>
-<td style="text-align:center">当 <code>index</code> 参数超出范围，或对一个空列表( <code>key</code> 不存在)进行时，返回一个错误</td>
-<td style="text-align:center">操作成功返回 <code>ok</code> ，否则返回错误信息</td>
+<td align="center"><code>lset</code> key index value</td>
+<td align="center">将列表 <code>key</code> 下标为 <code>index</code> 的元素的值设置为 <code>value</code></td>
+<td align="center">当 <code>index</code> 参数超出范围，或对一个空列表( <code>key</code> 不存在)进行时，返回一个错误</td>
+<td align="center">操作成功返回 <code>ok</code> ，否则返回错误信息</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>lrange</code> key start stop</td>
-<td style="text-align:center">返回列表 <code>key</code> 中指定区间内的元素，区间以偏移量 <code>start</code> 和 <code>stop</code> 指定</td>
-<td style="text-align:center">包含<code>stop</code>元素<br>如果 <code>stop</code> 下标比 <code>end</code> 下标还要大，Redis将 <code>stop</code> 的值设置为 <code>end</code></td>
-<td style="text-align:center">包含指定区间内的元素<br>如果 <code>start</code> 大于<code>list</code>长度就返回空一个列表</td>
+<td align="center"><code>lrange</code> key start stop</td>
+<td align="center">返回列表 <code>key</code> 中指定区间内的元素，区间以偏移量 <code>start</code> 和 <code>stop</code> 指定</td>
+<td align="center">包含<code>stop</code>元素<br>如果 <code>stop</code> 下标比 <code>end</code> 下标还要大，Redis将 <code>stop</code> 的值设置为 <code>end</code></td>
+<td align="center">包含指定区间内的元素<br>如果 <code>start</code> 大于<code>list</code>长度就返回空一个列表</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>ltrlm</code> key start stop</td>
-<td style="text-align:center">对一个列表进行修剪(trim)，就是说，让列表只保留指定区间内的元素，不在指定区间之内的元素都将被删除</td>
-<td style="text-align:center">包含<code>stop</code>元素<br>如果 <code>stop</code> 下标比 <code>end</code> 下标还要大，Redis将 <code>stop</code> 的值设置为 <code>end</code></td>
-<td style="text-align:center">包含指定区间内的元素<br>如果 <code>start</code> 大于<code>list</code>长度就返回空一个列表</td>
+<td align="center"><code>ltrlm</code> key start stop</td>
+<td align="center">对一个列表进行修剪(trim)，就是说，让列表只保留指定区间内的元素，不在指定区间之内的元素都将被删除</td>
+<td align="center">包含<code>stop</code>元素<br>如果 <code>stop</code> 下标比 <code>end</code> 下标还要大，Redis将 <code>stop</code> 的值设置为 <code>end</code></td>
+<td align="center">包含指定区间内的元素<br>如果 <code>start</code> 大于<code>list</code>长度就返回空一个列表</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>blpop</code> [key] timeout</td>
-<td style="text-align:center">当给定多个 <code>key</code> 参数时，按参数 <code>key</code> 的先后顺序依次检查各个列表，弹出第一个非空列表的头元素</td>
-<td style="text-align:center">如果列表为空，返回一个 <code>nil</code></td>
-<td style="text-align:center">返回一个含有两个元素的列表，第一个元素是被弹出元素所属的 <code>key</code> ，第二个元素是被弹出元素的值</td>
+<td align="center"><code>blpop</code> [key] timeout</td>
+<td align="center">当给定多个 <code>key</code> 参数时，按参数 <code>key</code> 的先后顺序依次检查各个列表，弹出第一个非空列表的头元素</td>
+<td align="center">如果列表为空，返回一个 <code>nil</code></td>
+<td align="center">返回一个含有两个元素的列表，第一个元素是被弹出元素所属的 <code>key</code> ，第二个元素是被弹出元素的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>brpop</code> [key] timeout</td>
-<td style="text-align:center">当给定多个 <code>key</code> 参数时，按参数 <code>key</code> 的先后顺序依次检查各个列表，弹出第一个非空列表的尾部元素。</td>
-<td style="text-align:center">假如在指定时间内没有任何元素被弹出，则返回一个 <code>nil</code> 和等待时长</td>
-<td style="text-align:center">返回一个含有两个元素的列表，第一个元素是被弹出元素所属的 <code>key</code> ，第二个元素是被弹出元素的值</td>
+<td align="center"><code>brpop</code> [key] timeout</td>
+<td align="center">当给定多个 <code>key</code> 参数时，按参数 <code>key</code> 的先后顺序依次检查各个列表，弹出第一个非空列表的尾部元素。</td>
+<td align="center">假如在指定时间内没有任何元素被弹出，则返回一个 <code>nil</code> 和等待时长</td>
+<td align="center">返回一个含有两个元素的列表，第一个元素是被弹出元素所属的 <code>key</code> ，第二个元素是被弹出元素的值</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>brpoplpush</code> source destination timeout</td>
-<td style="text-align:center">超时参数 <code>timeout</code> 接受一个以秒为单位的数字作为值。超时参数设为 <code>0</code> 表示阻塞时间可以无限期延长(block indefinitely)</td>
-<td style="text-align:center">假如在指定时间内没有任何元素被弹出，则返回一个 <code>nil</code> 和等待时长</td>
-<td style="text-align:center">反回一个含有两个元素的列表，第一个元素是被弹出元素的值，第二个元素是等待时长</td>
+<td align="center"><code>brpoplpush</code> source destination timeout</td>
+<td align="center">超时参数 <code>timeout</code> 接受一个以秒为单位的数字作为值。超时参数设为 <code>0</code> 表示阻塞时间可以无限期延长(block indefinitely)</td>
+<td align="center">假如在指定时间内没有任何元素被弹出，则返回一个 <code>nil</code> 和等待时长</td>
+<td align="center">反回一个含有两个元素的列表，第一个元素是被弹出元素的值，第二个元素是等待时长</td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
-</tbody>
-</table>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">风静水易寒</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://windandstill.cn/redis/redis-er-zhi-ling-cao-zuo/">https://windandstill.cn/redis/redis-er-zhi-ling-cao-zuo/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://WindAndStill.cn" target="_blank">风静水易寒</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Redis/">Redis</a></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/"><img class="prev-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Redis(一) 入门与Redis数据类型</div></div></a></div><div class="next-post pull-right"><a href="/redis/redis-san-chi-jiu-hua-yu-shi-wu/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Redis(三) 持久化与事务</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/" title="Redis(一) 入门与Redis数据类型"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-30</div><div class="title">Redis(一) 入门与Redis数据类型</div></div></a></div><div><a href="/redis/redis-san-chi-jiu-hua-yu-shi-wu/" title="Redis(三) 持久化与事务"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-05</div><div class="title">Redis(三) 持久化与事务</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">风静水易寒</div><div class="author-info__description">WindAndStill</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/windandstill"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/windandstill" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="tencent://message/?uin=1368712819&amp;Menu=yes&amp;Service=300" target="_blank" title="QQ:1368712819"><i class="fa-brands fa-qq"></i></a><a class="social-icon" href="https://space.bilibili.com/20281343" target="_blank" title="哔哩哔哩"><i class="fa-brands fa-bilibili"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=113024530" target="_blank" title="网易云音乐"><i class="fa-solid fa-music"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><span>你好呀</span></div><div class="announcement_content">右下角有页面设置 阅读会更方便<br>文章封面还没时间去找 以后再说<br>先这样写着 优化以后再弄</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">1. 常用指令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-key-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-text">1.1 key 基本操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2%E6%95%B0%E6%8D%AE%E5%BA%93%E9%80%9A%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="toc-text">1.2数据库通用指令</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">2. 全部指令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-String"><span class="toc-text">2.1 String</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-hash"><span class="toc-text">2.2 hash</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-list"><span class="toc-text">2.3 list</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By 风静水易寒</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a href="WindAndStill.cn">blog</a>!<br><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn">鄂ICP备2022003148号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script>function panguFn () {
+</tbody></table>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">风静水易寒</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://windandstill.cn/redis/redis-er-zhi-ling-cao-zuo/">https://windandstill.cn/redis/redis-er-zhi-ling-cao-zuo/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://WindAndStill.cn" target="_blank">风静水易寒</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Redis/">Redis</a></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/"><img class="prev-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Redis(一) 入门与Redis数据类型</div></div></a></div><div class="next-post pull-right"><a href="/redis/redis-san-chi-jiu-hua-yu-shi-wu/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Redis(三) 持久化与事务</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/" title="Redis(一) 入门与Redis数据类型"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-30</div><div class="title">Redis(一) 入门与Redis数据类型</div></div></a></div><div><a href="/redis/redis-san-chi-jiu-hua-yu-shi-wu/" title="Redis(三) 持久化与事务"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-05</div><div class="title">Redis(三) 持久化与事务</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">风静水易寒</div><div class="author-info__description">WindAndStill</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/windandstill"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/windandstill" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="tencent://message/?uin=1368712819&amp;Menu=yes&amp;Service=300" target="_blank" title="QQ:1368712819"><i class="fa-brands fa-qq"></i></a><a class="social-icon" href="https://space.bilibili.com/20281343" target="_blank" title="哔哩哔哩"><i class="fa-brands fa-bilibili"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=113024530" target="_blank" title="网易云音乐"><i class="fa-solid fa-music"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><span>你好呀</span></div><div class="announcement_content">右下角有页面设置 阅读会更方便<br>文章封面还没时间去找 以后再说<br>先这样写着 优化以后再弄</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="toc-text">1. 常用指令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-key-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-text">1.1 key 基本操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2%E6%95%B0%E6%8D%AE%E5%BA%93%E9%80%9A%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="toc-text">1.2数据库通用指令</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E5%85%A8%E9%83%A8%E6%8C%87%E4%BB%A4"><span class="toc-text">2. 全部指令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-String"><span class="toc-text">2.1 String</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-hash"><span class="toc-text">2.2 hash</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-list"><span class="toc-text">2.3 list</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By 风静水易寒</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a href="WindAndStill.cn">blog</a>!<br><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn">鄂ICP备2022003148号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script>function panguFn () {
   if (typeof pangu === 'object') pangu.autoSpacingPage()
   else {
     getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
