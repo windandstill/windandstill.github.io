@@ -155,7 +155,9 @@
     detectApple()
     })(window)</script><link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'"><meta name="generator" content="Hexo 6.0.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">风静水易寒</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Redis(一) 入门与Redis数据类型</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-03-30T03:07:43.891Z" title="发表于 2022-03-30 11:07:43">2022-03-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-05T14:59:41.507Z" title="更新于 2022-04-05 22:59:41">2022-04-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Redis/">Redis</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>13分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Redis(一) 入门与Redis数据类型"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h1><h2 id="1-1-使用场景"><a href="#1-1-使用场景" class="headerlink" title="1.1 使用场景"></a>1.1 使用场景</h2><blockquote>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">风静水易寒</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 查找</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 放松</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Redis(一) 入门与Redis数据类型</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-03-30T03:07:43.891Z" title="发表于 2022-03-30 11:07:43">2022-03-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-05T14:59:41.507Z" title="更新于 2022-04-05 22:59:41">2022-04-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Redis/">Redis</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>13分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Redis(一) 入门与Redis数据类型"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>1. 前言</h1>
+<h2 id="1-1-使用场景">1.1 使用场景</h2>
+<blockquote>
 <p>问题现象</p>
 </blockquote>
 <ul>
@@ -173,10 +175,11 @@
 <p>解决思路  <code>Nosql</code></p>
 </blockquote>
 <ul>
-<li>降低磁盘IO次数，越低越好 —— 内存存储 </li>
+<li>降低磁盘IO次数，越低越好 —— 内存存储</li>
 <li>去除数据间关系，越简单越好—— 不存储关系，仅存储数据</li>
 </ul>
-<h2 id="1-2-Nosql"><a href="#1-2-Nosql" class="headerlink" title="1.2 Nosql"></a>1.2 Nosql</h2><p>NoSQL：即 Not-Only SQL（ 泛指非关系型的数据库），作为关系型数据库的补充<br>Nosql 作用：应对基于海量用户和海量数据前提下的数据处理问题</p>
+<h2 id="1-2-Nosql">1.2 Nosql</h2>
+<p>NoSQL：即 Not-Only SQL（ 泛指非关系型的数据库），作为关系型数据库的补充<br>Nosql 作用：应对基于海量用户和海量数据前提下的数据处理问题</p>
 <p>特征：</p>
 <ul>
 <li>可扩容，可伸缩</li>
@@ -191,7 +194,8 @@
 <li>HBase</li>
 <li>MongoDB</li>
 </ul>
-<h2 id="1-3-解决方案（电商场景）"><a href="#1-3-解决方案（电商场景）" class="headerlink" title="1.3 解决方案（电商场景）"></a>1.3 解决方案（电商场景）</h2><blockquote>
+<h2 id="1-3-解决方案（电商场景）">1.3 解决方案（电商场景）</h2>
+<blockquote>
 <p>数量小， 变化小   MySQL</p>
 </blockquote>
 <p>商品基本信息：名称、价格、厂商</p>
@@ -210,14 +214,17 @@
 </blockquote>
 <p><code>高频、波段性</code></p>
 <p><img src="https://windandstill-1309695473.cos.ap-guangzhou.myqcloud.com/img/%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E5%AD%98%E5%82%A8.png" alt="基本信息存储"></p>
-<h1 id="2-Redis简介"><a href="#2-Redis简介" class="headerlink" title="2. Redis简介"></a>2. Redis简介</h1><h2 id="2-1-Redis"><a href="#2-1-Redis" class="headerlink" title="2.1 Redis"></a>2.1 Redis</h2><p>概念：*Redis (<strong>RE</strong>mote <strong>DI</strong>ctionary <strong>S</strong>erver)* 是用 C 语言开发的一个开源的高性能键值对（<code>key-value</code>）数据库</p>
+<h1>2. Redis简介</h1>
+<h2 id="2-1-Redis">2.1 Redis</h2>
+<p>概念：<em>Redis (<strong>RE</strong>mote <strong>DI</strong>ctionary <strong>S</strong>erver)</em> 是用 C 语言开发的一个开源的高性能键值对（<code>key-value</code>）数据库</p>
 <p>Redis 特征：</p>
 <ol>
 <li>数据间没有必然的关联关系</li>
 <li>内部采用单线程机制进行工作</li>
 <li>高性能。官方提供测试数据，50个并发执行100000 个请求,读的速度是110000 次/s,写的速度是81000次/s</li>
-<li>多数据类型支持<ul>
-<li>字符串类型     string</li>
+<li>多数据类型支持
+<ul>
+<li>字符串类型 	string</li>
 <li>列表类型         list</li>
 <li>散列类型         hash</li>
 <li>集合类型         set</li>
@@ -226,7 +233,8 @@
 </li>
 <li>持久化支持。可以进行数据灾难恢复</li>
 </ol>
-<h2 id="2-2-Redis-的应用"><a href="#2-2-Redis-的应用" class="headerlink" title="2.2 Redis 的应用"></a>2.2 Redis 的应用</h2><ul>
+<h2 id="2-2-Redis-的应用">2.2 Redis 的应用</h2>
+<ul>
 <li>为热点数据加速查询（主要场景），如热点商品、热点新闻、热点资讯、推广类等高访问量信息等</li>
 <li>任务队列，如秒杀、抢购、购票排队等</li>
 <li>即时信息查询，如各位排行榜、各类网站访问统计、公交到站信息、在线人数信息（聊天室、网站）、设备信号等</li>
@@ -235,48 +243,48 @@
 <li>消息队列</li>
 <li>分布式锁</li>
 </ul>
-<h1 id="3-Redis-的基本操作"><a href="#3-Redis-的基本操作" class="headerlink" title="3. Redis 的基本操作"></a>3. Redis 的基本操作</h1><h2 id="3-1-功能性命令"><a href="#3-1-功能性命令" class="headerlink" title="3.1 功能性命令"></a>3.1 功能性命令</h2><blockquote>
+<h1>3. Redis 的基本操作</h1>
+<h2 id="3-1-功能性命令">3.1 功能性命令</h2>
+<blockquote>
 <p>信息添加</p>
 <p>功能：设置 key，value 数据</p>
 </blockquote>
 <figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> key value</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> name windandstill</span><br></pre></td></tr></tbody></table></figure>
-
 <blockquote>
 <p>信息查询</p>
 <p>功能：根据 key 查询对应的 value，如果不存在，返回空（nil）</p>
 </blockquote>
 <figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">get key</span><br><span class="line"></span><br><span class="line">get name</span><br></pre></td></tr></tbody></table></figure>
-
-<h2 id="3-2-清除屏幕信息"><a href="#3-2-清除屏幕信息" class="headerlink" title="3.2 清除屏幕信息"></a>3.2 清除屏幕信息</h2><blockquote>
+<h2 id="3-2-清除屏幕信息">3.2 清除屏幕信息</h2>
+<blockquote>
 <p>功能：清除屏幕中的信息</p>
 </blockquote>
 <figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">clear</span></span><br></pre></td></tr></tbody></table></figure>
-
-<h2 id="3-3-帮助信息查阅"><a href="#3-3-帮助信息查阅" class="headerlink" title="3.3 帮助信息查阅"></a>3.3 帮助信息查阅</h2><blockquote>
+<h2 id="3-3-帮助信息查阅">3.3 帮助信息查阅</h2>
+<blockquote>
 <p>功能：获取命令帮助文档，获取组中所有命令信息名称</p>
 </blockquote>
 <figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">help 命令名称</span><br><span class="line">help <span class="selector-tag">@</span>组名</span><br></pre></td></tr></tbody></table></figure>
-
-
-
-<h2 id="3-4-退出指令"><a href="#3-4-退出指令" class="headerlink" title="3.4 退出指令"></a>3.4 退出指令</h2><blockquote>
+<h2 id="3-4-退出指令">3.4 退出指令</h2>
+<blockquote>
 <p>退出客户端命令行模式</p>
 <p>功能：退出客户端</p>
 </blockquote>
 <figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">quit</span><br><span class="line"><span class="keyword">exit</span></span><br><span class="line">&lt;ESC&gt;</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="4-数据存储类型介绍"><a href="#4-数据存储类型介绍" class="headerlink" title="4. 数据存储类型介绍"></a>4. 数据存储类型介绍</h1><h2 id="4-1-redis-数据存储格式"><a href="#4-1-redis-数据存储格式" class="headerlink" title="4.1 redis 数据存储格式"></a>4.1 redis 数据存储格式</h2><ul>
+<h1>4. 数据存储类型介绍</h1>
+<h2 id="4-1-redis-数据存储格式">4.1 redis 数据存储格式</h2>
+<ul>
 <li>redis 自身是一个 Map，其中所有的数据都是采用 <code>key : value</code> 的形式存储</li>
 <li>数据类型指的是存储的数据的类型，也就是 <code>value 部分的类型</code>，<code>key 部分永远都是字符串</code></li>
 </ul>
-<h2 id="4-2-string"><a href="#4-2-string" class="headerlink" title="4.2 string"></a>4.2 string</h2><ul>
+<h2 id="4-2-string">4.2 string</h2>
+<ul>
 <li><code>存储的数据</code>：单个数据，最简单的数据存储类型，也是最常用的数据存储类型</li>
 <li><code>存储数据的格式</code>：一个存储空间保存一个数据</li>
 <li><code>存储内容</code>：通常使用字符串，如果字符串以整数的形式展示，可以作为数字操作使用</li>
 </ul>
 <p>设置数值数据增加指定范围的值</p>
 <figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//设置数值数据减少指定范围的值</span><br><span class="line">incr key</span><br><span class="line">incrby key increment</span><br><span class="line">incrbyfloat key increment</span><br><span class="line">//设置数值数据减少指定范围的值</span><br><span class="line">decr key</span><br><span class="line">decrby key increment</span><br></pre></td></tr></tbody></table></figure>
-
 <blockquote>
 <p>string 作为数值操作</p>
 </blockquote>
@@ -296,7 +304,8 @@
 <th>作用</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>set</code> key value</td>
 <td>添加/修改数据</td>
 </tr>
@@ -324,24 +333,27 @@
 <td><code>append</code> key value</td>
 <td>追加信息到原始信息后部（如果原始信息存在就追加，否则新建）</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote>
 <p>设置数据具有指定的生命周期</p>
 </blockquote>
 <figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">setex key seconds value</span><br><span class="line">psetex key milliseconds value</span><br></pre></td></tr></tbody></table></figure>
-
 <p>redis 控制数据的生命周期，通过数据是否失效控制业务行为，适用于所有具有时效性限定控制的操作</p>
 <blockquote>
 <p>注意事项</p>
 </blockquote>
 <ul>
-<li><p>数据操作不成功的反馈与数据正常操作之间的差异</p>
+<li>
+<p>数据操作不成功的反馈与数据正常操作之间的差异</p>
 <p>① 表示运行结果是否成功<br>(integer) 0 → false 失败<br>(integer) 1 → true 成功</p>
 <p>② 表示运行结果值<br>(integer) 3 → 3 3个<br>(integer) 1 → 1 1个<br>数据未获取到 （nil）等同于null</p>
 </li>
-<li><p>数据最大存储量 512MB</p>
+<li>
+<p>数据最大存储量 512MB</p>
 </li>
-<li><p>数值计算最大范围（java中的long的最大值）9223372036854775807</p>
+<li>
+<p>数值计算最大范围（java中的long的最大值）9223372036854775807</p>
 </li>
 </ul>
 <blockquote>
@@ -350,15 +362,17 @@
 <p><strong>需求</strong>   :主页高频访问信息显示控制，例如新浪微博大V主页显示粉丝数与微博数量</p>
 <p><strong>解决方案</strong></p>
 <ul>
-<li><p>在redis中为大V用户设定用户信息，以用户主键和属性值作为key，后台设定定时刷新策略即可</p>
+<li>
+<p>在redis中为大V用户设定用户信息，以用户主键和属性值作为key，后台设定定时刷新策略即可</p>
 <p>eg: user:id :3506728370:fans → 12210947</p>
 <p>eg: user:id :3506728370:blogs → 6164</p>
 <p>eg: user:id :3506728370:focuss → 83</p>
 </li>
-<li><p>在redis中以json格式存储大V用户信息，定时刷新（也可以使用hash类型）</p>
+<li>
+<p>在redis中以json格式存储大V用户信息，定时刷新（也可以使用hash类型）</p>
 </li>
 </ul>
-<p>  eg: user:id :3506728370 → {“id”:3506728370,”name”:”春晚”,”fans”:12210862,”blogs”:6164, “focus”:83}</p>
+<p>eg: user:id :3506728370 → {“id”:3506728370,“name”:“春晚”,“fans”:12210862,“blogs”:6164, “focus”:83}</p>
 <blockquote>
 <p>string 类型应用场景</p>
 </blockquote>
@@ -372,7 +386,8 @@
 </blockquote>
 <p>数据库中的热点数据key命名惯例</p>
 <p>表名:主键名:主键值:字段名</p>
-<h2 id="4-3-hash"><a href="#4-3-hash" class="headerlink" title="4.3 hash"></a>4.3 hash</h2><ul>
+<h2 id="4-3-hash">4.3 hash</h2>
+<ul>
 <li><code>新的存储需求</code>：对一系列存储的数据进行编组，方便管理，典型应用存储对象信息</li>
 <li><code>需要的存储结构</code>：一个存储空间保存多个键值对数据</li>
 <li><code>hash类型</code>：底层使用哈希表结构实现数据存储</li>
@@ -396,7 +411,8 @@
 <th>作用</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>hset</code> key field value</td>
 <td>添加/修改数据</td>
 </tr>
@@ -432,7 +448,8 @@
 <td><code>hincrby</code> key field increment<br><code>hincrbyfloat</code> key field increment</td>
 <td>设置指定字段的数值数据增加指定范围的值</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote>
 <p>hash 类型数据操作的注意事项</p>
 </blockquote>
@@ -450,7 +467,8 @@
 <li>抢购，限购类、限量发放优惠卷、激活码等业务的数据存储设计</li>
 <li>string存储对象（json）与hash存储对象</li>
 </ul>
-<h2 id="4-4-list"><a href="#4-4-list" class="headerlink" title="4.4 list"></a>4.4 list</h2><ul>
+<h2 id="4-4-list">4.4 list</h2>
+<ul>
 <li><code>数据存储需求</code>：存储多个数据，并对数据进入存储空间的顺序进行区分</li>
 <li><code>需要的存储结构</code>：一个存储空间保存多个数据，且通过数据可以体现进入顺序</li>
 <li><code>list类型</code>：保存多个数据，底层使用双向链表存储结构实现</li>
@@ -462,31 +480,33 @@
 <table>
 <thead>
 <tr>
-<th align="center">指令</th>
-<th align="center">作用</th>
+<th style="text-align:center">指令</th>
+<th style="text-align:center">作用</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center"><code>lpush</code> key [value1]<br><code>rpush</code> key [value1]</td>
-<td align="center">添加/修改数据</td>
+<tbody>
+<tr>
+<td style="text-align:center"><code>lpush</code> key [value1]<br><code>rpush</code> key [value1]</td>
+<td style="text-align:center">添加/修改数据</td>
 </tr>
 <tr>
-<td align="center"><code>lrange</code> key start stop<br><code>lindex</code> key index<br><code>llen</code> key</td>
-<td align="center">获取数据</td>
+<td style="text-align:center"><code>lrange</code> key start stop<br><code>lindex</code> key index<br><code>llen</code> key</td>
+<td style="text-align:center">获取数据</td>
 </tr>
 <tr>
-<td align="center"><code>lpop</code> key<br><code>rpop</code> key</td>
-<td align="center">获取并移除数据</td>
+<td style="text-align:center"><code>lpop</code> key<br><code>rpop</code> key</td>
+<td style="text-align:center">获取并移除数据</td>
 </tr>
 <tr>
-<td align="center"><code>blpop</code> [key1] timeout<br><code>brpop</code> [key1] timeout<br><code>brpoplpush</code> source destination timeout</td>
-<td align="center">规定时间内获取并移除数据</td>
+<td style="text-align:center"><code>blpop</code> [key1] timeout<br><code>brpop</code> [key1] timeout<br><code>brpoplpush</code> source destination timeout</td>
+<td style="text-align:center">规定时间内获取并移除数据</td>
 </tr>
 <tr>
-<td align="center"><code>lrem</code> key count value</td>
-<td align="center">移除指定数据</td>
+<td style="text-align:center"><code>lrem</code> key count value</td>
+<td style="text-align:center">移除指定数据</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote>
 <p>list 类型数据操作注意事项</p>
 </blockquote>
@@ -504,7 +524,8 @@
 <li>点赞</li>
 <li>资讯</li>
 </ul>
-<h2 id="4-5-set"><a href="#4-5-set" class="headerlink" title="4.5 set"></a>4.5 set</h2><ul>
+<h2 id="4-5-set">4.5 set</h2>
+<ul>
 <li><code>新的存储需求</code>：存储大量的数据，在查询方面提供更高的效率</li>
 <li><code>需要的存储结构</code>：能够保存大量的数据，高效的内部存储机制，便于查询</li>
 <li><code>set类型</code>：<code>与hash存储结构完全相同，仅存储键，不存储值（nil），并且值是不允许重复的</code></li>
@@ -516,51 +537,53 @@
 <table>
 <thead>
 <tr>
-<th align="center">指令</th>
-<th align="center">作用</th>
+<th style="text-align:center">指令</th>
+<th style="text-align:center">作用</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center"><code>sadd</code> key [member1]</td>
-<td align="center">添加数据</td>
+<tbody>
+<tr>
+<td style="text-align:center"><code>sadd</code> key [member1]</td>
+<td style="text-align:center">添加数据</td>
 </tr>
 <tr>
-<td align="center"><code>smembers</code> key</td>
-<td align="center">获取全部数据</td>
+<td style="text-align:center"><code>smembers</code> key</td>
+<td style="text-align:center">获取全部数据</td>
 </tr>
 <tr>
-<td align="center"><code>srem</code> key [member1]</td>
-<td align="center">删除数据</td>
+<td style="text-align:center"><code>srem</code> key [member1]</td>
+<td style="text-align:center">删除数据</td>
 </tr>
 <tr>
-<td align="center"><code>scard</code> key</td>
-<td align="center">获取集合数据总量</td>
+<td style="text-align:center"><code>scard</code> key</td>
+<td style="text-align:center">获取集合数据总量</td>
 </tr>
 <tr>
-<td align="center"><code>sismember</code> key member</td>
-<td align="center">判断集合中是否包含指定数据</td>
+<td style="text-align:center"><code>sismember</code> key member</td>
+<td style="text-align:center">判断集合中是否包含指定数据</td>
 </tr>
 <tr>
-<td align="center"><code>srandmember</code> key [count]</td>
-<td align="center">随机获取集合中指定数量的数据</td>
+<td style="text-align:center"><code>srandmember</code> key [count]</td>
+<td style="text-align:center">随机获取集合中指定数量的数据</td>
 </tr>
 <tr>
-<td align="center"><code>spop</code> key [count]</td>
-<td align="center">随机获取集合中的某个数据并将该数据移出集合</td>
+<td style="text-align:center"><code>spop</code> key [count]</td>
+<td style="text-align:center">随机获取集合中的某个数据并将该数据移出集合</td>
 </tr>
 <tr>
-<td align="center"><code>sinter</code> [key1]<br><code>sunion</code> [key1]<br><code>sdiff</code> [key1]</td>
-<td align="center">求两个集合的交、并、差集</td>
+<td style="text-align:center"><code>sinter</code> [key1]<br><code>sunion</code> [key1]<br><code>sdiff</code> [key1]</td>
+<td style="text-align:center">求两个集合的交、并、差集</td>
 </tr>
 <tr>
-<td align="center"><code>sinterstore</code> destination [key1]<br><code>sunionstore</code> destination [key1]<br><code>sdiffstore</code> destination [key1]</td>
-<td align="center">求两个集合的交、并、差集并存储到指定集合中</td>
+<td style="text-align:center"><code>sinterstore</code> destination [key1]<br><code>sunionstore</code> destination [key1]<br><code>sdiffstore</code> destination [key1]</td>
+<td style="text-align:center">求两个集合的交、并、差集并存储到指定集合中</td>
 </tr>
 <tr>
-<td align="center"><code>smove</code> source destination member</td>
-<td align="center">将指定数据从原始集合中移动到目标集合中</td>
+<td style="text-align:center"><code>smove</code> source destination member</td>
+<td style="text-align:center">将指定数据从原始集合中移动到目标集合中</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote>
 <p>注意事项</p>
 </blockquote>
@@ -572,22 +595,26 @@
 <p>set 类型应用场景</p>
 </blockquote>
 <ul>
-<li><p>随机推荐类信息检索，例如热点歌单推荐，热点新闻推荐，热卖旅游线路，应用APP推荐， 大V推荐等</p>
+<li>
+<p>随机推荐类信息检索，例如热点歌单推荐，热点新闻推荐，热卖旅游线路，应用APP推荐， 大V推荐等</p>
 </li>
-<li><p>redis 应用于同类信息的关联搜索，二度关联搜索，深度关联搜索</p>
+<li>
+<p>redis 应用于同类信息的关联搜索，二度关联搜索，深度关联搜索</p>
 <ul>
 <li>显示共同关注（一度）</li>
 <li>由用户A出发，获取到好友用户B的购物清单列表（二度）</li>
 </ul>
 </li>
-<li><p>统计网站的PV（访问量）,UV（独立访客）,IP（独立IP）</p>
+<li>
+<p>统计网站的PV（访问量）,UV（独立访客）,IP（独立IP）</p>
 <ul>
 <li>PV：网站被访问次数，可通过刷新页面提高访问量<br>建立string类型数据，利用incr统计日访问量（PV）</li>
 <li>UV：网站被不同用户访问的次数，可通过cookie统计访问量，相同用户切换IP地址，UV不变<br> 建立set模型，记录不同cookie数量（UV）</li>
 <li>IP：网站被不同IP地址访问的总次数，可通过IP地址统计访问量，相同IP不同用户访问，IP不变<br> 建立set模型，记录不同IP数量（IP）</li>
 </ul>
 </li>
-<li><p>黑白名单</p>
+<li>
+<p>黑白名单</p>
 <ul>
 <li>基于经营战略设定问题用户发现、鉴别规则</li>
 <li>周期性更新满足规则的用户黑名单，加入set集合</li>
@@ -598,7 +625,8 @@
 </ul>
 </li>
 </ul>
-<h2 id="4-6-sorted-set"><a href="#4-6-sorted-set" class="headerlink" title="4.6 sorted_set"></a>4.6 sorted_set</h2><ul>
+<h2 id="4-6-sorted-set">4.6 sorted_set</h2>
+<ul>
 <li><code>新的存储需求</code>：数据排序有利于数据的有效展示，需要提供一种可以根据自身特征进行排序的方式</li>
 <li><code>需要的存储结构</code>：新的存储模型，可以保存可排序的数据</li>
 <li><code>sorted_set类型</code>：在set的存储结构基础上添加可排序字段</li>
@@ -610,47 +638,49 @@
 <table>
 <thead>
 <tr>
-<th align="center">指令</th>
-<th align="center">作用</th>
+<th style="text-align:center">指令</th>
+<th style="text-align:center">作用</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center"><code>zadd</code> key [score1 member1]</td>
-<td align="center">添加数据</td>
+<tbody>
+<tr>
+<td style="text-align:center"><code>zadd</code> key [score1 member1]</td>
+<td style="text-align:center">添加数据</td>
 </tr>
 <tr>
-<td align="center"><code>zrange</code> key start stop [WITHSCORES]<br><code>zrevrange</code> key start stop [WITHSCORES]</td>
-<td align="center">获取全部数据</td>
+<td style="text-align:center"><code>zrange</code> key start stop [WITHSCORES]<br><code>zrevrange</code> key start stop [WITHSCORES]</td>
+<td style="text-align:center">获取全部数据</td>
 </tr>
 <tr>
-<td align="center"><code>zrem</code> key [member …]</td>
-<td align="center">删除数据</td>
+<td style="text-align:center"><code>zrem</code> key [member …]</td>
+<td style="text-align:center">删除数据</td>
 </tr>
 <tr>
-<td align="center"><code>zrangebyscore</code> key min max [WITHSCORES] [LIMIT]<br><code>zrevrangebyscore</code> key max min [WITHSCORES]</td>
-<td align="center">按条件获取数据</td>
+<td style="text-align:center"><code>zrangebyscore</code> key min max [WITHSCORES] [LIMIT]<br><code>zrevrangebyscore</code> key max min [WITHSCORES]</td>
+<td style="text-align:center">按条件获取数据</td>
 </tr>
 <tr>
-<td align="center"><code>zremrangebyrank</code> key start stop<br><code>zremrangebyscore</code> key min max</td>
-<td align="center">条件删除数据</td>
+<td style="text-align:center"><code>zremrangebyrank</code> key start stop<br><code>zremrangebyscore</code> key min max</td>
+<td style="text-align:center">条件删除数据</td>
 </tr>
 <tr>
-<td align="center"><code>zcard</code> key<br><code>zcount</code> key min max</td>
-<td align="center">获取集合数据总量</td>
+<td style="text-align:center"><code>zcard</code> key<br><code>zcount</code> key min max</td>
+<td style="text-align:center">获取集合数据总量</td>
 </tr>
 <tr>
-<td align="center"><code>zinterstore</code> destination numkeys [key …]<br><code>zunionstore</code> destination numkeys [key …]</td>
-<td align="center">集合交、并操作</td>
+<td style="text-align:center"><code>zinterstore</code> destination numkeys [key …]<br><code>zunionstore</code> destination numkeys [key …]</td>
+<td style="text-align:center">集合交、并操作</td>
 </tr>
 <tr>
-<td align="center"><code>zrank</code> key member<br><code>zrevrank</code> key member</td>
-<td align="center">获取数据对应的索引（排名）</td>
+<td style="text-align:center"><code>zrank</code> key member<br><code>zrevrank</code> key member</td>
+<td style="text-align:center">获取数据对应的索引（排名）</td>
 </tr>
 <tr>
-<td align="center"><code>zscore</code> key member<br><code>zincrby</code> key increment member</td>
-<td align="center">score值获取与修改</td>
+<td style="text-align:center"><code>zscore</code> key member<br><code>zincrby</code> key increment member</td>
+<td style="text-align:center">score值获取与修改</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <ul>
 <li><code>min与max用于限定搜索查询的条件</code></li>
 <li><code>start与stop用于限定查询范围，作用于索引，表示开始和结束索引</code></li>
@@ -669,7 +699,9 @@
 </blockquote>
 <p>redis 应用于计数器组合排序功能对应的<code>排名</code></p>
 <p>redis 应用于定时任务<code>执行顺序管理</code>或<code>任务过期管理</code></p>
-<h1 id="5-案例"><a href="#5-案例" class="headerlink" title="5 案例"></a>5 案例</h1><h2 id="5-1-限次数限时间"><a href="#5-1-限次数限时间" class="headerlink" title="5.1 限次数限时间"></a>5.1 限次数限时间</h2><p>试用用户的使用行为进行限速，限制每个用户每分钟最多发起10次调用</p>
+<h1>5 案例</h1>
+<h2 id="5-1-限次数限时间">5.1 限次数限时间</h2>
+<p>试用用户的使用行为进行限速，限制每个用户每分钟最多发起10次调用</p>
 <blockquote>
 <p>解决方案</p>
 </blockquote>
@@ -686,7 +718,8 @@
 <li>判断是否为nil<br>如果是，设置为Max-次数<br>如果不是，计数+1 业务调用失败，计数-1</li>
 <li>遇到异常即+操作超过上限，视为使用达到上限</li>
 </ul>
-<h2 id="5-2-消息提醒"><a href="#5-2-消息提醒" class="headerlink" title="5.2 消息提醒"></a>5.2 消息提醒</h2><p>指定消息 消息的显示先后顺序</p>
+<h2 id="5-2-消息提醒">5.2 消息提醒</h2>
+<p>指定消息 消息的显示先后顺序</p>
 <blockquote>
 <p>解决方案</p>
 </blockquote>
@@ -698,7 +731,7 @@
 <li>推送消息时先推送置顶会话list，再推送普通会话list，推送完成的list清除所有数据</li>
 <li>消息的数量，也就是微信用户对话数量采用计数器的思想另行记录，伴随list操作同步更新</li>
 </ul>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">风静水易寒</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://windandstill.cn/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/">https://windandstill.cn/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://WindAndStill.cn" target="_blank">风静水易寒</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Redis/">Redis</a></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/bei-dou-wei-xing-shi-shi-dan-dian-ding-wei-yu-jing-du-fen-xi/"><img class="prev-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">北斗卫星实时单点定位与精度分析</div></div></a></div><div class="next-post pull-right"><a href="/redis/redis-er-zhi-ling-cao-zuo/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Redis(二) 指令操作</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/redis/redis-san-chi-jiu-hua-yu-shi-wu/" title="Redis(三) 持久化与事务"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-05</div><div class="title">Redis(三) 持久化与事务</div></div></a></div><div><a href="/redis/redis-er-zhi-ling-cao-zuo/" title="Redis(二) 指令操作"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-02</div><div class="title">Redis(二) 指令操作</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">风静水易寒</div><div class="author-info__description">WindAndStill</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/windandstill"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/windandstill" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="tencent://message/?uin=1368712819&amp;Menu=yes&amp;Service=300" target="_blank" title="QQ:1368712819"><i class="fa-brands fa-qq"></i></a><a class="social-icon" href="https://space.bilibili.com/20281343" target="_blank" title="哔哩哔哩"><i class="fa-brands fa-bilibili"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=113024530" target="_blank" title="网易云音乐"><i class="fa-solid fa-music"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><span>你好呀</span></div><div class="announcement_content">右下角有页面设置 阅读会更方便<br>文章封面还没时间去找 以后再说<br>先这样写着 优化以后再弄</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-text">1.1 使用场景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-Nosql"><span class="toc-text">1.2 Nosql</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%88%E7%94%B5%E5%95%86%E5%9C%BA%E6%99%AF%EF%BC%89"><span class="toc-text">1.3 解决方案（电商场景）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-Redis%E7%AE%80%E4%BB%8B"><span class="toc-text">2. Redis简介</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-Redis"><span class="toc-text">2.1 Redis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-Redis-%E7%9A%84%E5%BA%94%E7%94%A8"><span class="toc-text">2.2 Redis 的应用</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-Redis-%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-text">3. Redis 的基本操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E5%8A%9F%E8%83%BD%E6%80%A7%E5%91%BD%E4%BB%A4"><span class="toc-text">3.1 功能性命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E6%B8%85%E9%99%A4%E5%B1%8F%E5%B9%95%E4%BF%A1%E6%81%AF"><span class="toc-text">3.2 清除屏幕信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-%E5%B8%AE%E5%8A%A9%E4%BF%A1%E6%81%AF%E6%9F%A5%E9%98%85"><span class="toc-text">3.3 帮助信息查阅</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-4-%E9%80%80%E5%87%BA%E6%8C%87%E4%BB%A4"><span class="toc-text">3.4 退出指令</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E7%B1%BB%E5%9E%8B%E4%BB%8B%E7%BB%8D"><span class="toc-text">4. 数据存储类型介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-redis-%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F"><span class="toc-text">4.1 redis 数据存储格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-string"><span class="toc-text">4.2 string</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-3-hash"><span class="toc-text">4.3 hash</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-4-list"><span class="toc-text">4.4 list</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-5-set"><span class="toc-text">4.5 set</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-6-sorted-set"><span class="toc-text">4.6 sorted_set</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E6%A1%88%E4%BE%8B"><span class="toc-text">5 案例</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-%E9%99%90%E6%AC%A1%E6%95%B0%E9%99%90%E6%97%B6%E9%97%B4"><span class="toc-text">5.1 限次数限时间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-%E6%B6%88%E6%81%AF%E6%8F%90%E9%86%92"><span class="toc-text">5.2 消息提醒</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By 风静水易寒</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a href="WindAndStill.cn">blog</a>!<br><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn">鄂ICP备2022003148号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script>function panguFn () {
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">风静水易寒</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://windandstill.cn/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/">https://windandstill.cn/redis/redis-yi-ru-men-yu-redis-shu-ju-lei-xing/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://WindAndStill.cn" target="_blank">风静水易寒</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Redis/">Redis</a></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/bei-dou-wei-xing-shi-shi-dan-dian-ding-wei-yu-jing-du-fen-xi/"><img class="prev-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">北斗卫星实时单点定位与精度分析</div></div></a></div><div class="next-post pull-right"><a href="/redis/redis-er-zhi-ling-cao-zuo/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Redis(二) 指令操作</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/redis/redis-san-chi-jiu-hua-yu-shi-wu/" title="Redis(三) 持久化与事务"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-05</div><div class="title">Redis(三) 持久化与事务</div></div></a></div><div><a href="/redis/redis-er-zhi-ling-cao-zuo/" title="Redis(二) 指令操作"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-02</div><div class="title">Redis(二) 指令操作</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">风静水易寒</div><div class="author-info__description">WindAndStill</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/windandstill"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/windandstill" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="tencent://message/?uin=1368712819&amp;Menu=yes&amp;Service=300" target="_blank" title="QQ:1368712819"><i class="fa-brands fa-qq"></i></a><a class="social-icon" href="https://space.bilibili.com/20281343" target="_blank" title="哔哩哔哩"><i class="fa-brands fa-bilibili"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=113024530" target="_blank" title="网易云音乐"><i class="fa-solid fa-music"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><span>你好呀</span></div><div class="announcement_content">右下角有页面设置 阅读会更方便<br>文章封面还没时间去找 以后再说<br>先这样写着 优化以后再弄</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">1. 前言</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-text">1.1 使用场景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-Nosql"><span class="toc-text">1.2 Nosql</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%88%E7%94%B5%E5%95%86%E5%9C%BA%E6%99%AF%EF%BC%89"><span class="toc-text">1.3 解决方案（电商场景）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">2. Redis简介</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-Redis"><span class="toc-text">2.1 Redis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-Redis-%E7%9A%84%E5%BA%94%E7%94%A8"><span class="toc-text">2.2 Redis 的应用</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">3. Redis 的基本操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E5%8A%9F%E8%83%BD%E6%80%A7%E5%91%BD%E4%BB%A4"><span class="toc-text">3.1 功能性命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E6%B8%85%E9%99%A4%E5%B1%8F%E5%B9%95%E4%BF%A1%E6%81%AF"><span class="toc-text">3.2 清除屏幕信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-%E5%B8%AE%E5%8A%A9%E4%BF%A1%E6%81%AF%E6%9F%A5%E9%98%85"><span class="toc-text">3.3 帮助信息查阅</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-4-%E9%80%80%E5%87%BA%E6%8C%87%E4%BB%A4"><span class="toc-text">3.4 退出指令</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">4. 数据存储类型介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-redis-%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F"><span class="toc-text">4.1 redis 数据存储格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-string"><span class="toc-text">4.2 string</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-3-hash"><span class="toc-text">4.3 hash</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-4-list"><span class="toc-text">4.4 list</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-5-set"><span class="toc-text">4.5 set</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-6-sorted-set"><span class="toc-text">4.6 sorted_set</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">5 案例</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-%E9%99%90%E6%AC%A1%E6%95%B0%E9%99%90%E6%97%B6%E9%97%B4"><span class="toc-text">5.1 限次数限时间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-%E6%B6%88%E6%81%AF%E6%8F%90%E9%86%92"><span class="toc-text">5.2 消息提醒</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By 风静水易寒</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a href="WindAndStill.cn">blog</a>!<br><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn">鄂ICP备2022003148号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script>function panguFn () {
   if (typeof pangu === 'object') pangu.autoSpacingPage()
   else {
     getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
