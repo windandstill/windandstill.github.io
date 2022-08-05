@@ -196,7 +196,7 @@
     
     
     <entry>
-      <title>Mybatis-Plus 基础操作</title>
+      <title>Mybatis-Plus 进阶操作</title>
       <link href="/javaee/mybatis/mybatis-plus/2.jin-jie-cao-zuo/"/>
       <url>/javaee/mybatis/mybatis-plus/2.jin-jie-cao-zuo/</url>
       
@@ -1116,9 +1116,9 @@
       
         <tags>
             
-            <tag> Spring </tag>
-            
             <tag> MyBatis </tag>
+            
+            <tag> Spring </tag>
             
         </tags>
       
